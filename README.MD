@@ -1,13 +1,9 @@
 #start local reposutory
-
 git init
-
 #see file in working directory
-
 ls
 
 ##see file in local directory
-
 git ls-files
 
 #add file from working to stage 
@@ -138,6 +134,34 @@ git stash clear[will delete all stash]
 
 git stash drop <stash id>[will delete specific stash file]
 
+######remote repo add ###############33
+
+git remote add origin <repo link>
+git push origin master
+
+##git delete branch from local
+
+git branch -d <branch name>
+git branch -D <branch name>
+
+#git branch delete from remote
+
+git push origin --delete <branch name>
+
+#git pulll means update local repo from remote changes
+
+git pull origin master
+
+pull=fetch+ merge
+
+#git fetch cmd show the remote change not make any change in local repo
+
+git fetch  origin 
+
+###################remove conflict in remote##########################33
+
+first pull then push
+then same as before which i learn from conflict remove
 
 
 
