@@ -8,6 +8,7 @@ git init
 ls
 
 ##see file in local directory
+
 git ls-files
 
 #add file from working to stage 
