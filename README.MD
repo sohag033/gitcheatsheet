@@ -1,6 +1,10 @@
+
 #start local reposutory
+
 git init
+
 #see file in working directory
+
 ls
 
 ##see file in local directory
@@ -109,7 +113,7 @@ just open and delete head and branch name of that file and add and commit again
 
 ##########################stash############################
 
-stash means if i work with 3 files.3rd file is completed but other two is not yet .then can stashed them in a temporary shell and 3rd will be commited and after that i can get bach those two stash file to work again
+stash means if i work with 3 files.3rd file is completed but other two is not yet .then can stashed them in a temporary shell and 3rd will be commited and after that i can get back those two stash file to work again
 
 git stash
 
@@ -134,7 +138,7 @@ git stash clear[will delete all stash]
 
 git stash drop <stash id>[will delete specific stash file]
 
-######remote repo add ###############33
+######remote repo add ###############
 
 git remote add origin <repo link>
 git push origin master
