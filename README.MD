@@ -40,7 +40,7 @@ git commit -m "delete file name"
 #rm command delete file from working repo  and local repo
 # rm file from local repo not working repo
 
-git rm --cached <filename>
+git rm --cached <file name>
   
 git commit -m "del file"
 
