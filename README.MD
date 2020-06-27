@@ -41,12 +41,16 @@ git commit -m "delete file name"
 # rm file from local repo not working repo
 
 git rm --cached <filename>
+  
 git commit -m "del file"
 
 #untracked file
 create .gitignore file and add file name inside it what i dont want to track
+
 git add .gitignore
+
 git commit -m "ignore from file <file name>"
+  
 
 #remove the change from working directory/unstaged
 
