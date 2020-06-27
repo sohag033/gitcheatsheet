@@ -54,11 +54,13 @@ git commit -m "ignore from file <file name>"
 
 #remove the change from working directory/unstaged
 
-git checkout --<filename>
+git checkout -- <filename>
+  
 
 #remove the change from staged/local repo area
 
-git reset HEAD <file name>
+git reset HEAD  <file name>
+  
 
 #remove from commit level
 
